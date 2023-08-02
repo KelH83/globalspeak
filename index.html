@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Speak</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="main-container">
+    <div class="banner">
+        <a href="index.html"><img src="./images/banner.png" alt="banner image"/></a>
+    </div>
+    <div class="languages" id="main-page">
+        <h1><span id="greeting">Welcome to</span> Global Speak</h1>
+        <h2>Please select a language below to learn how to say the following phrase in that language; <br>
+            "Hello...my name is...do you speak English?"</h2>
+
+        <!-- Test bit -->     
+       
+
+        <div class="languages-container">
+            <!-- Spanish, french, japanese, ukranian, german, finish -->
+            <div class="language1">
+                <button class="language-button" onClick="spanish()">
+                    <h2>Spanish</h2>
+                    <img src="./images/spanishFlag.png" class="flags" alt="spanish flag"/>
+                    <h2>Española</h2>
+                </button>
+            </div>
+            <div class="language2">
+                <button class="language-button" onClick="french()">
+                    <h2>French</h2>
+                    <img src="./images/frenchFlag.png" class="flags" alt="french flag"/>
+                    <h2>Français</h2>
+                </button>
+            </div>
+            <div class="language3">
+                <button class="language-button" onClick="japanese()">
+                    <h2>Japanese</h2>
+                    <img src="./images/japaneseFlag.png" class="flags" alt="japanese flag"/>
+                    <h2>日本</h2>
+                </button>
+            </div>
+            <div class="language4">
+                <button class="language-button" onClick="ukranian()">
+                    <h2>Ukranian</h2>
+                    <img src="./images/ukranianFlag.png" class="flags" alt="ukranian flag"/>
+                    <h2>українська</h2>
+                </button>
+            </div>
+            <div class="language5">
+                <button class="language-button" onClick="german()">
+                    <h2>German</h2>
+                    <img src="./images/germanFlag.png" class="flags" alt="german flag"/>
+                    <h2>Deutsch</h2>
+                </button>
+            </div>
+            <div class="languages6">
+                <button class="language-button" onClick="finnish()">
+                    <h2>Finnish</h2>
+                    <img src="./images/finnishFlag.png" class="flags" alt="finnish flag"/>
+                    <h2>Suomalainen</h2>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="copyright">Registered company number 9804677832<br>
+            © Copyright Global Speak <span id="year"></span></p>
+          <img class="social-media" src="./images/facebook.png"/>
+          <img class="social-media" src="./images/twitter2.png"/>
+          <img class="social-media" src="./images/snapchat.png"/>
+          <p id="contact">01223 455 6677<br>
+          help@globalspeak.co.uk</p>
+
+    </div>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>

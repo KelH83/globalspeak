@@ -1,0 +1,88 @@
+/*Main styling and banner*/
+
+.main-container {
+    display: grid;
+    grid-template-areas:
+    'banner'
+    'languages'
+    'footer';
+    gap: 10px;
+    background-color: #ffde59;
+    padding: 5px;
+   
+  }
+      
+  .main-container > div {      
+    text-align: center;
+  }
+
+  .banner img{
+    width: 95%;
+    height: 200px;
+    border:1px solid #000;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+
+  .languages h1{
+    font-size: 50px;
+  }
+
+  /*Languages section*/
+
+  .languages-container {
+    display: grid;
+    grid-template-areas:
+    'languages1 languages2 languages3'
+    'languages1 languages2 languages3'
+    'languages4 languages5 languages6'
+    'languages4 languages5 languages6';
+    gap: 10px;
+    background-color: #60afdf;
+    padding: 5px;
+    border-radius: 15px;
+  }
+      
+  .languages-container > div {      
+    text-align: center;
+  }
+
+  .flags{
+    width:100px;
+    height:80px;
+    border:2px solid #000;
+    border-radius: 10px;
+  }
+
+  .language-button{
+    padding:20px 30%;
+    margin-top:15px;
+    background-color: #ffde59;
+    border-radius: 15px;
+  }
+
+  /*Individual language pages*/
+  .phrase{
+    background-color: #60afdf;
+    color:#ffde59;
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .audio-style{
+    background-color: #ffde59;
+    padding: 30px;
+    border-radius: 15px;  
+    }
+
+   /*Footer section*/
+  #copyright{
+    float:left;
+  }
+  .social-media{
+    width:50px;
+    height: 50px;
+  }
+  #contact{
+    float:right;
+  }
